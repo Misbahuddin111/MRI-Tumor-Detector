@@ -7,6 +7,11 @@ import pandas as pd
 import os
 import sys
 
+# At the very top of app.py
+import sys
+print(f"Python version: {sys.version}")
+
+# Rest of your imports...
 # Import utilities
 from utils import load_model, predict_tumor, get_confidence_color, class_names
 
