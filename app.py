@@ -6,6 +6,11 @@ import plotly.graph_objects as go
 import pandas as pd
 import os
 import sys
+import os
+import sys
+
+# Show Python version for debugging
+st.sidebar.write(f"Python: {sys.version}")
 
 # At the very top of app.py
 import sys
