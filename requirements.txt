@@ -1,4 +1,3 @@
-cat > requirements.txt << 'EOF'
 streamlit
 tensorflow
 numpy
@@ -6,8 +5,4 @@ pillow
 plotly
 pandas
 opencv-python-headless
-EOF
-
-git add requirements.txt
-git commit -m "Add TensorFlow for real predictions"
-git push origin main
+h5py

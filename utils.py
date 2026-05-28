@@ -1,4 +1,5 @@
 # utils.py - Full version with real model
+import streamlit as st
 import numpy as np
 from PIL import Image
 import tensorflow as tf

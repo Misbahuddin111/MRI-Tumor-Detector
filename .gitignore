@@ -8,7 +8,6 @@ __pycache__/
 *.dll
 *.so
 *.exe
-brain_tumor_model.h5
 *.keras
 *.pkl
 .vscode/
